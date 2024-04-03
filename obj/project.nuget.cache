@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2b5/gipXaKEGpcmpOs/tZ6/hbe0VR64WO75q+W7bAokDakdFrp7v9UPte5CosTWGUca6NGgaphhQVetqKZ9e0Q==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\RiderProjects\\csd215_lab2_johncarlo\\csd215_lab2_johncarlo.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tddninja\\.nuget\\packages\\fsharp.core\\8.0.200\\fsharp.core.8.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}
