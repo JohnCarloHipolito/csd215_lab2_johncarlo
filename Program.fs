@@ -64,11 +64,11 @@ let calculateBudget activity =
         | Turkish -> 65.0
     | LongDrive (km, fuel) -> float km * fuel
     
-let imaxMovieWithSnacks = calculateBudget(Movie IMaxWithSnacks)
-let koreanRestaurant = calculateBudget(Restaurant Korean)
-let longDrive = calculateBudget(LongDrive (250, 1.5))
+let watchAMovie = calculateBudget(Movie IMaxWithSnacks)
+let dineOut = calculateBudget(Restaurant Korean)
+let torontoToNiagara = calculateBudget(LongDrive (250, 1.5))
     
-printfn $"\nThe cost of watching a movie in IMAX theater with snacks is: %.2f{imaxMovieWithSnacks} CAD"
-printfn $"The cost of eating in a Korean restaurant is: %.2f{koreanRestaurant} CAD"
-printfn $"The cost of a long drive is: %.2f{longDrive} CAD"
-printfn $"Total cost of the activities: %.2f{imaxMovieWithSnacks + koreanRestaurant + longDrive} CAD"
+printfn $"\nThe cost of watching a movie in IMAX theater with snacks is: %.2f{watchAMovie} CAD"
+printfn $"The cost of eating in a Korean restaurant is: %.2f{dineOut} CAD"
+printfn $"The cost of a long drive is: %.2f{torontoToNiagara} CAD"
+printfn $"Total cost of the activities: %.2f{watchAMovie + dineOut + torontoToNiagara} CAD"
